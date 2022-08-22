@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: "Segoe UI";
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-main: #4F92FF;
+  --bg: #fbfefd;
+  --bg2: #E2F4FF;
+  
+  --main-accent: #E2F4FF;
+  --main-text: #A5A8B0;
+  --shadow: rgba(17,17,26,0.1) 2px 2px 16px;
+}
+
+body {
+  background: #EAF2F8;
+}
