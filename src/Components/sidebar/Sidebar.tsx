@@ -61,15 +61,6 @@ export const Sidebar: React.FC<ISidebar> = (props: ISidebar) => {
                                 <a href="">
                                     <div className="figure"></div>
                                     <div className="icon">
-                                        <FaProjectDiagram />
-                                    </div>
-                                    <div className="icon_text">Projects</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div className="figure"></div>
-                                    <div className="icon">
                                         <FaRegClock />
                                     </div>
                                     <div className="icon_text">Standups</div>
@@ -85,15 +76,6 @@ export const Sidebar: React.FC<ISidebar> = (props: ISidebar) => {
                                     <div className="notification">
                                         <p>5</p>
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div className="figure"></div>
-                                    <div className="icon">
-                                        <FaTh />
-                                    </div>
-                                    <div className="icon_text">Settings</div>
                                 </a>
                             </li>
                         </ul>
