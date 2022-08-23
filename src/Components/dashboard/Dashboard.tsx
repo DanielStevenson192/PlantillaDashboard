@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLightbulb, FaPlus, FaSplotch } from 'react-icons/fa';
+import { FaFire, FaLightbulb, FaPlus, FaSplotch } from 'react-icons/fa';
 import './Dashboard.css';
 import avatar from "../../assets/img/avatar2.png";
 
@@ -78,7 +78,76 @@ export const Dashboard: React.FC<IDashboard> = (props: IDashboard) => {
                         </div>
                     </div>
                     <div className="column_two">
-
+                        <div className="inline-up">
+                            <div className="title">
+                                <h3>Design Project</h3>
+                            </div>
+                            <div className="subtitle">
+                                <div className="icon">
+                                    <FaFire />
+                                </div>
+                                <h3>In Progress</h3>
+                            </div>
+                        </div>
+                        <div className="inline-down">
+                            <div className="completed">
+                                <h3>Completed</h3>
+                                <div className="item">
+                                    <h4>114</h4>
+                                    <div className="completed_item"></div>
+                                </div>
+                            </div>
+                            <div className="in_progress">
+                                <h3>In Progress</h3>
+                                <div className="item">
+                                    <h4>24</h4>
+                                    <div className="in_progress_item"></div>
+                                </div>
+                            </div>
+                            <div className="team">
+                                <h3>Team members</h3>
+                                <div className="team_avatar">
+                                    <img src={avatar} />
+                                    <img src={avatar} style={{ transform: "translateX(-10px)" }} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="separator"></div>
+                        <div className="inline-up">
+                            <div className="title">
+                                <h3>Design Project</h3>
+                            </div>
+                            <div className="subtitle">
+                                <div className="icon">
+                                    <FaFire />
+                                </div>
+                                <h3>In Progress</h3>
+                            </div>
+                        </div>
+                        <div className="inline-down">
+                            <div className="completed">
+                                <h3>Completed</h3>
+                                <div className="item">
+                                    <h4>114</h4>
+                                    <div className="completed_item"></div>
+                                </div>
+                            </div>
+                            <div className="in_progress">
+                                <h3>In Progress</h3>
+                                <div className="item">
+                                    <h4>24</h4>
+                                    <div className="in_progress_item"></div>
+                                </div>
+                            </div>
+                            <div className="team">
+                                <h3>Team members</h3>
+                                <div className="team_avatar">
+                                    <img src={avatar} />
+                                    <img src={avatar} style={{ transform: "translateX(-10px)" }} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="separator"></div>
                     </div>
                 </div>
             </div>
